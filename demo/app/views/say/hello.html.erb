@@ -6,3 +6,14 @@
   Time to say
   <%= link_to "Goodbye", say_goodbye_path %>!
 </p>
+
+<p>
+  <%= 1+2 %>
+  <%= "cow" + "boy" %>
+</p>
+
+<p>
+  <% @files.each do |file| %>
+    <ul> file name is: <%= file %> </ul>
+  <% end %>
+</p>
